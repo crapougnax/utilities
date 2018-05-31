@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <modules>
+    <module id="utilities" vendor="crapougnax">
+      <version>0.1.0</version>
+      <enabled>true</enabled>
+      <label>
+        <en>t41 Utilities</en>
+        <fr>Utilitaires t41</fr>
+      </label>
+      <description>Module providing utilities for t41</description>
+      <copyright>2018 Quatrain Développement SAS</copyright>
+      <namespace>Crapougnax</namespace>
+      <controller>
+        <base>utilities</base>
+        <label>
+          <en>Utilities</en>
+          <fr>Utilitaires</fr>
+        </label>
+        <help></help>
+        <items>
+          <item id="object">
+            <label>
+              <en>Objects</en>
+              <fr>Objets</fr>
+            </label>
+            <nolink/>
+            <help></help>
+            <acl>
+              <any/>
+            </acl>
+            <items>
+              <item id="object/index">
+                <label>
+                <en>Objects by module</en>
+                <fr>Objets par module</fr>
+                </label>
+                <acl>
+                  <any/>
+                </acl>
+              </item>
+            </items>
+          </item>
+      </items>
+      </controller>
+    </module>
+  </modules>
+</config>
