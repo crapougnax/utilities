@@ -8,13 +8,8 @@
     "license": "Apache-2.0",
     "authors": [
         {
-            "name": "Olivier Leepine",
+            "name": "Olivier Lepine",
             "email": "olivier@lepine.fr"
         }
-    ],
-    "extra": {
-        "installer-paths": {
-            "application/modules/{$vendor}/{$name}/": ["vendor/package"]
-        }
-    }
+    ]
 }
